@@ -32,7 +32,7 @@ const MyForm = () => {
           errors={state.errors}
         />
         <label htmlFor="email" className={s.label}></label>
-        <input type="text" name='email' id='email' placeholder='Email' className={s.input} />
+        <input type="text" name='email' id='email' placeholder='Email' defaultValue='solovro31@gmail.com' className={s.input} />
         <ValidationError
           prefix='Email'
           field='email'
