@@ -1,4 +1,3 @@
-import Image from "next/image";
 import s from './style.module.css';
 import ParticlesContainer from '../components/ParticlesContainer';
 import ProjectsBtn from '../components/ProjectsBtn';

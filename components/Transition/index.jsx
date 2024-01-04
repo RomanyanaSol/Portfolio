@@ -24,21 +24,21 @@ const Transition = () => {
         initial='initial'
         animate='animate'
         exit='exit'
-        transition={{ delay: 0.2, duration: 0.6, ease: 'easeInOut' }}>
+        transition={{ delay: 0, duration: 0, ease: 'easeInOut' }}>
       </motion.div>
       <motion.div className={s.second}
         variants={transitionVariants}
         initial='initial'
         animate='animate'
         exit='exit'
-        transition={{ delay: 0.4, duration: 0.6, ease: 'easeInOut' }}>
+        transition={{ delay: 0.2, duration: 0.6, ease: 'easeInOut' }}>
       </motion.div>
       <motion.div className={s.third}
         variants={transitionVariants}
         initial='initial'
         animate='animate'
         exit='exit'
-        transition={{ delay: 0.6, duration: 0.6, ease: 'easeInOut' }}>
+        transition={{ delay: 0.4, duration: 0.7, ease: 'easeInOut' }}>
       </motion.div>
 
     </>

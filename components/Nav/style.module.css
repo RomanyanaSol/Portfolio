@@ -11,8 +11,8 @@
 
     @media(min-width: 1200px) {
         justify-content: center;
-        right: 2%;
-        width: 64px;
+        right: -6%;
+        width: 100%;
         max-width: 448px;
         top: 50%;
         transform: translateY(-50%);
@@ -38,6 +38,7 @@
         flex-direction: column;
         justify-content: center;
         height: 100%;
+        width: 13%;
         font-size: 20px;
         padding: 32px 0;
         border-radius: 9999px;
