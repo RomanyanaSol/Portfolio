@@ -30,3 +30,14 @@
     z-index: 10;
     background-color: #4b3792;
 }
+
+.fourth {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(89, 71, 152, 0.5);
+}
