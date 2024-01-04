@@ -1,0 +1,11 @@
+.page {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url('../../public/site-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    font-family: 'Sora', sans-serif;
+}

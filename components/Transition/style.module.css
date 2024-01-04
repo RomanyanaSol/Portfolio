@@ -1,0 +1,32 @@
+.first {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 30;
+    background-color: #2e2257;
+}
+
+.second {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    background-color: #3b2d71;
+}
+
+.third {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: #4b3792;
+}

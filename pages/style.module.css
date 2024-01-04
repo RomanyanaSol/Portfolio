@@ -1,0 +1,114 @@
+.page {
+    background-color: rgba(19, 20, 36, 0.6);
+    height: 100vh;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(19, 20, 36, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+    margin: 0 auto;
+
+    @media(min-width: 1200px) {
+        max-width: 1200px;
+        padding-top: 160px;
+        text-align: left;
+    }
+}
+
+.h1 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 43px;
+    margin-bottom: 32px;
+    font-family: 'Sora', sans-serif;
+
+
+    @media(min-width: 768px) {
+        font-size: 60px;
+        line-height: 67px;
+    }
+}
+
+.span {
+    color: #F13024;
+    font-family: 'Sora', sans-serif;
+}
+
+.p {
+    max-width: 384px;
+    margin: 0 auto 40px auto;
+
+    @media(min-width: 1200px) {
+        max-width: 576px;
+        margin: 0 0 64px 0;
+    }
+}
+
+.projectsBtn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    @media(min-width: 1200px) {
+        display: none;
+    }
+}
+
+.largeProjectsBtn {
+    display: none;
+
+    @media(min-width: 1200px) {
+        display: flex;
+    }
+}
+
+.imgContainer {
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: color-dodge;
+    transform: translateZ(0);
+
+    @media(min-width: 1200px) {
+        background-image: url('.././public/bg-explosion.png');
+        background-position: right;
+        background-size: cover;
+    }
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    max-width: 669px;
+    max-height: 798px;
+    position: absolute;
+    bottom: -11%;
+    right: 15%;
+
+    @media(max-width: 1700px) {
+        right: 5%;
+    }
+
+    @media(max-width: 1199px) {
+        display: none;
+    }
+
+
+}

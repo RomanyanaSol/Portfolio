@@ -1,0 +1,104 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: fixed;
+    margin-top: auto;
+    width: 100%;
+    color: white;
+    z-index: 50;
+
+    @media(min-width: 1200px) {
+        justify-content: center;
+        right: 2%;
+        width: 64px;
+        max-width: 448px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    @media(max-width: 1200px) {
+        bottom: 0;
+    }
+}
+
+.navData {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    font-size: 30px;
+
+    @media(min-width: 1200px) {
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        font-size: 20px;
+        padding: 32px 0;
+        border-radius: 9999px;
+        gap: 30px;
+    }
+
+    @media(min-width: 768px) and (max-width: 1200px) {
+        padding: 0 160px;
+    }
+
+}
+
+.accent {
+    color: #F13024;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #F13024;
+}
+
+.tooltipMain {
+    position: absolute;
+    padding-right: 76px;
+    right: 0;
+    display: none;
+}
+
+.group:hover .tooltipMain {
+    @media(min-width: 1200px){
+        display: flex;   
+    }
+}
+
+.tooltipCont {
+    background-color: white;
+    position: relative;
+    padding: 6px;
+    color:  #261b48;
+    border-radius: 3px;
+}
+
+.tooltip {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.triangle {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid white;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+

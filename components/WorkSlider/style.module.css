@@ -1,0 +1,135 @@
+.swiper {
+    height: 480px;
+    
+    @media(min-width: 960px) and (max-width: 1200px) {
+        width: 70%;
+        height: 480px;
+    }
+
+    @media(min-width: 740px) and (max-width: 960px) {
+        width: 70%;
+        height: 380px;
+    }
+
+    @media(max-width: 740px) {
+        width: 70%;
+        height: 320px;
+    }
+
+    @media(max-width: 590px) {
+        width: 70%;
+        height: 280px;
+    }
+
+    @media(max-width: 490px) {
+        width: 90%;
+        height: 280px;
+    }
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    grid-template-rows: repeat(2, minmax(0, 1fr)); 
+    gap: 16px;
+    cursor: pointer;
+}
+
+
+.imageContainer {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    border-radius: 6px;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, transparent, #e838cc, #4a22bd);
+    opacity: 0;
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.group:hover .overlay {
+    opacity: 80;
+}
+
+.textMain {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.group:hover .textMain {
+    transform: translateY(-10%);
+
+    @media(min-width:1030px) {
+        transform: translateY(-250%);
+    } 
+
+    @media(min-width: 760px) and (max-width: 1030px) {
+        transform: translateY(-200%);
+    } 
+
+    @media(min-width: 500px) and (max-width: 760px) {
+        transform: translateY(-100%);
+    } 
+
+    @media(max-width: 500px) {
+        transform: translateY(-70%);
+    } 
+}
+
+.textFlex {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+}
+
+.textFlex {
+    @media(max-width: 556px){
+        font-size: 10px;
+        gap: 4px;
+    }
+}
+
+.titleOne {
+    transition-delay: 100ms;
+    color: white;
+}
+
+.titleTwo {
+    color: white;
+    transform: translateY(500%);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.group:hover .titleTwo {
+    transform: translateY(0);
+    transition-delay: 150ms;
+}
+
+.titleThree {
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    transform: translateY(500%);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.group:hover .titleThree {
+    transform: translateY(0);
+    transition-delay: 200ms;
+}

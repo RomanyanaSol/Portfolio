@@ -1,0 +1,36 @@
+.header {
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 64px;
+
+    @media(min-width: 1200px) {
+        height: 90px;
+    }
+}
+
+ .container {
+    padding: 15px;
+    width: 100%;
+
+    @media(max-width: 1200px) {
+        margin: 0 auto;
+    }
+} 
+
+ .linkSocials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+    
+    @media(min-width: 960px) {
+        flex-direction: row;
+    }
+} 
