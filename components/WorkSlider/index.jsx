@@ -43,12 +43,12 @@ const WorkSlider = () => {
       className={s.swiper}
     >
       {
-        workSlider.slides.map((item, index) =>
-          <SwiperSlide key={index}>
+        workSlider.slides.map((item, slideIndex) =>
+          <SwiperSlide key={slideIndex}>
             <div className={s.grid}>
-              {item.images.map((image, index) =>
-                <Link href={image.link} target='blank'>
-                  <div key={index} className={s.group}>
+              {item.images.map((image, imageIndex) =>
+                <Link key={imageIndex} href={image.link} target='blank'>
+                  <div className={s.group}>
                     <div className={s.imageContainer}>
                       <Image src={image.path} width={500} height={300} alt='' className={s.img} />
                       <div className={s.overlay}></div>
