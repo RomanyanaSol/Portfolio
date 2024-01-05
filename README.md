@@ -24,7 +24,7 @@ Link https://portfolio-gamma-bice-57.vercel.app/
 
 ## Built With
 
-<img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg' width="46" height="46" alt="HTML"/> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg' width="46" height="46" alt="CSS" /> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' width="46" height="46" alt="CSS" /> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg' width="46" height="46" alt="React" /> 
+<img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg' width="46" height="46" alt="HTML"/> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg' width="46" height="46" alt="CSS" /> <img src = 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg' width="46" height="46" alt="CSS" /> <img src = 'https://cdn.worldvectorlogo.com/logos/nextjs-2.svg' width="46" height="46" alt="Next.js" /> 
 
 
 
