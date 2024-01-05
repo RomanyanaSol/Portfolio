@@ -5,7 +5,7 @@ Link https://portfolio-gamma-bice-57.vercel.app/
 ## Demo
 
 <p align="center">
-<img src="https://github.com/RomanyanaSol/Real-estate/blob/main/Real%20estate%20Demo.gif">
+<img src="https://github.com/RomanyanaSol/Portfolio/blob/main/Portfolio%20Demo.gif">
 </p>
 
 
