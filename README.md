@@ -28,10 +28,12 @@ Link https://portfolio-gamma-bice-57.vercel.app/
 
 
 
-- React Router (navigation)
-- React Hooks
-- useContext
-- React Pagination 
+- Next.js
+- Framer Motion for transition between pages, fadeIn and fadeOut
+- Formspree for email
+- tsParticles
+- react-countup
+- Swiper for Services, Work and Testimonials tabs
 - CSS-Modules 
 
 
