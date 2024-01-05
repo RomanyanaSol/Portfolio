@@ -17,7 +17,7 @@ Link https://portfolio-gamma-bice-57.vercel.app/
 - has a responsive design
 
 <p align="center">
-<img src="https://github.com/RomanyanaSol/Portfolio/blob/main/Portfolio%20responsive.gif" >
+<img src="https://github.com/RomanyanaSol/Portfolio/blob/main/portfolio%20resp.jpg" >
 </p>
 
 
