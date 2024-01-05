@@ -12,8 +12,9 @@ Link https://portfolio-gamma-bice-57.vercel.app/
 
 ## About The Project
 
-- online-store has search: country, type and price
-- responsive design
+- portfolio site contains all my Pet-projects
+- section About me and Contact form
+- has a responsive design
 
 <p align="center">
 <img src="https://github.com/RomanyanaSol/Real-estate/blob/main/Responsive%20demo.gif" >
