@@ -3,13 +3,14 @@ const workSlider = {
     {
       images: [
         { title: 'title', path: '/myThumb1.jpg', link: 'https://real-estate2-seven.vercel.app' },
+        { title: 'title', path: '/myThumb7.jpg', link: 'https://clothes-ecommerce-ten.vercel.app/' },
         { title: 'title', path: '/myThumb2.jpg', link: 'https://romanyanasol.github.io/Creative-Portfolio' },
         { title: 'title', path: '/myThumb4.jpg', link: 'https://romanyanasol.github.io/Beauty-3D-scroll-animation' },
-        { title: 'title', path: '/myThumb6.jpg', link: 'https://romanyanasol.github.io/Fairy-Forest' },
       ],
     },
     {
       images: [
+        { title: 'title', path: '/myThumb6.jpg', link: 'https://romanyanasol.github.io/Fairy-Forest' },
         { title: 'title', path: '/myThumb3.jpg', link: 'https://github.com/RomanyanaSol/Online-store-selling-goods-for-the-garden' },
         { title: 'title', path: '/myThumb5.jpg', link: 'https://github.com/RomanyanaSol/Pizza' },
       ],
